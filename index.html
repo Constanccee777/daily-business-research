@@ -15,8 +15,8 @@
       <p class="eyebrow"><span class="eyebrow-icon" aria-hidden="true">◫</span> BUSINESS RESEARCH ARCHIVE</p>
       <h1>每日商业拆解报告</h1>
       <p class="intro">从广告、电商、本地生活和 AI 商业化出发，用第一性原理拆解增长机制、利润池与竞争壁垒。</p>
-      <div class="stats" aria-label="目录概览"><span class="stat">📚 已收录 4 篇</span><span class="stat">🕗 每日 08:00 更新</span><span class="stat">🌐 公开免登录</span></div>
-      <section aria-labelledby="reports-heading"><div class="section-head"><h2 id="reports-heading">报告目录</h2><span class="count">按日期倒序</span></div><div class="report-list"><a class="report-card" href="./2026-07-19.html">
+      <div class="stats" aria-label="目录概览"><span class="stat" id="report-count">📚 已收录 4 篇</span><span class="stat">🕗 每日 08:00 更新</span><span class="stat">🌐 公开免登录</span></div>
+      <section aria-labelledby="reports-heading"><div class="section-head"><h2 id="reports-heading">报告目录</h2><span class="count">按日期倒序</span></div><div class="report-list" id="report-list"><a class="report-card" href="./2026-07-19.html">
       <div class="date-block" aria-hidden="true"><span class="date-day">19</span><span class="date-month">2026 · 07</span></div>
       <div class="report-copy">
         <div class="meta"><time datetime="2026-07-19T15:30:00+08:00">2026年7月19日 15:30</time><span class="latest">最新</span></div>
@@ -51,5 +51,39 @@
     </a></div></section>
       <footer>报告为生成时点的研究快照；事实、估算与分析推断在正文中分别标注。</footer>
     </main>
-  </body>
+  <script>
+(() => {
+  const escapeHtml = (value) => String(value).replace(/[&<>"']/g, (char) => ({
+    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
+  })[char]);
+  fetch("./reports.json", { cache: "no-store" })
+    .then((response) => {
+      if (!response.ok) throw new Error("report index unavailable");
+      return response.json();
+    })
+    .then((reports) => {
+      reports.sort((a, b) => String(b.publishedAt).localeCompare(String(a.publishedAt)));
+      const list = document.querySelector("#report-list");
+      const count = document.querySelector("#report-count");
+      if (!list || !count) return;
+      count.textContent = "📚 已收录 " + reports.length + " 篇";
+      list.innerHTML = reports.map((report, index) => {
+        const [year, month, day] = String(report.date).split("-");
+        const tags = (report.tags || []).map((tag) => '<span class="tag">' + escapeHtml(tag) + '</span>').join("");
+        return [
+          '<a class="report-card" href="' + escapeHtml(report.href) + '">',
+          '<div class="date-block" aria-hidden="true"><span class="date-day">' + escapeHtml(day) + '</span><span class="date-month">' + escapeHtml(year) + ' · ' + escapeHtml(month) + '</span></div>',
+          '<div class="report-copy">',
+          '<div class="meta"><time datetime="' + escapeHtml(report.publishedAt) + '">' + escapeHtml(report.displayTime) + '</time>' + (index === 0 ? '<span class="latest">最新</span>' : "") + '</div>',
+          '<h2 class="report-title">' + escapeHtml(report.title) + '</h2>',
+          '<div class="tags" aria-label="研究主题">' + tags + '</div>',
+          '</div>',
+          '<span class="arrow" aria-label="打开报告">→</span>',
+          '</a>',
+        ].join("");
+      }).join("");
+    })
+    .catch(() => {});
+})();
+</script></body>
 </html>
