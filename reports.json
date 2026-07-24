@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-07-24",
+    "publishedAt": "2026-07-24T08:00:00+08:00",
+    "displayTime": "2026年7月24日 08:00",
+    "title": "NVIDIA AI生态：英伟达卖的究竟是GPU，还是AI时代的生产资料标准？",
+    "href": "./reports/2026-07-24-nvidia-ai-ecosystem.html",
+    "tags": [
+      "NVIDIA",
+      "AI基础设施",
+      "Agent生态"
+    ]
+  },
+  {
     "date": "2026-07-23",
     "publishedAt": "2026-07-23T10:56:46+08:00",
     "displayTime": "2026年7月23日 10:56",
