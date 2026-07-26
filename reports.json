@@ -1,5 +1,13 @@
 [
   {
+    "date": "2026-07-26",
+    "publishedAt": "2026-07-26T08:06:00+08:00",
+    "displayTime": "2026年7月26日 08:06",
+    "title": "Anthropic Claude企业业务：从模型调用走向工作流与Agent基础设施",
+    "href": "./reports/2026-07-26-anthropic-enterprise-ai.html",
+    "tags": ["Anthropic", "企业AI", "Claude Code"]
+  },
+  {
     "date": "2026-07-25",
     "publishedAt": "2026-07-25T08:01:00+08:00",
     "displayTime": "2026年7月25日 08:01",
