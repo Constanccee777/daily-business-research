@@ -1,178 +1,25 @@
 [
-  {
-    "date": "2026-08-06",
-    "publishedAt": "2026-08-06T08:00:48+08:00",
-    "displayTime": "2026年8月6日 08:00",
-    "title": "Google AI搜索广告：当答案替代链接，广告利润池会扩大还是被搜索自己吞掉？",
-    "href": "./reports/2026-08-06-google-ai-search-ads.html",
-    "tags": ["Google Ads", "AI搜索", "增量利润"]
-  },
-  {
-    "date": "2026-08-05",
-    "publishedAt": "2026-08-05T08:03:49+08:00",
-    "displayTime": "2026年8月5日 08:03",
-    "title": "阿里巴巴AI商业闭环：云、广告与即时零售能否形成第二增长曲线？",
-    "href": "./reports/2026-08-05-alibaba-ai-commerce-loop.html",
-    "tags": ["阿里巴巴", "AI云", "电商商业化"]
-  },
-  {
-    "date": "2026-08-04",
-    "publishedAt": "2026-08-04T08:01:45+08:00",
-    "displayTime": "2026年8月4日 08:01",
-    "title": "美团利润重建：补贴退潮后，即时零售如何重新赚到每一单的钱？",
-    "href": "./reports/2026-08-04-meituan-profit-rebuild.html",
-    "tags": ["美团", "即时零售", "单位经济"]
-  },
-  {
-    "date": "2026-08-03",
-    "publishedAt": "2026-08-03T08:08:00+08:00",
-    "displayTime": "2026年8月3日 08:08",
-    "title": "拼多多供应链升级：低价心智如何变成可持续的商家利润？",
-    "href": "./reports/2026-08-03-pdd-supply-chain.html",
-    "tags": ["拼多多", "Temu", "供应链升级"]
-  },
-  {
-    "date": "2026-08-02",
-    "publishedAt": "2026-08-02T08:03:53+08:00",
-    "displayTime": "2026年8月2日 08:03",
-    "title": "Meta广告与AI资本开支：收入高增为何换来利润与现金流下滑？",
-    "href": "./reports/2026-08-02-meta-ai-capex.html",
-    "tags": ["Meta Ads", "AI资本开支", "增量归因"]
-  },
-  {
-    "date": "2026-08-01",
-    "publishedAt": "2026-08-01T08:03:00+08:00",
-    "displayTime": "2026年8月1日 08:03",
-    "title": "Amazon广告与AI购物：当搜索入口被Agent重写，零售媒体利润池会更深还是被稀释？",
-    "href": "./reports/2026-08-01-amazon-ai-retail-media.html",
-    "tags": ["Amazon Ads", "零售媒体", "AI购物"]
-  },
-  {
-    "date": "2026-07-31",
-    "publishedAt": "2026-07-31T08:00:00+08:00",
-    "displayTime": "2026年7月31日 08:00",
-    "title": "微信闭环广告：腾讯如何把社交关系变成可验证的交易利润？",
-    "href": "./reports/2026-07-31-weixin-closed-loop-ads.html",
-    "tags": ["腾讯广告", "微信小店", "闭环归因"]
-  },
-  {
-    "date": "2026-07-30",
-    "publishedAt": "2026-07-30T08:04:52+08:00",
-    "displayTime": "2026年7月30日 08:04",
-    "title": "京东零售与采销：当商品收入放缓，利润为何反而创高？",
-    "href": "./reports/2026-07-30-jd-retail-procurement.html",
-    "tags": ["京东零售", "采销", "供应链利润"]
-  },
-  {
-    "date": "2026-07-29",
-    "publishedAt": "2026-07-29T08:18:00+08:00",
-    "displayTime": "2026年7月29日 08:18",
-    "title": "TikTok发现式电商：内容流量如何变成广告、佣金与复购利润？",
-    "href": "./reports/2026-07-29-tiktok-discovery-commerce.html",
-    "tags": ["TikTok Shop", "发现式电商", "广告自动化"]
-  },
-  {
-    "date": "2026-07-28",
-    "publishedAt": "2026-07-28T08:01:00+08:00",
-    "displayTime": "2026年7月28日 08:01",
-    "title": "小红书商业化：当种草成为搜索入口，如何把信任转化为广告与交易利润？",
-    "href": "./reports/2026-07-28-xiaohongshu-commerce.html",
-    "tags": ["小红书", "种草搜索", "电商商业化"]
-  },
-  {
-    "date": "2026-07-27",
-    "publishedAt": "2026-07-27T08:31:00+08:00",
-    "displayTime": "2026年7月27日 08:31",
-    "title": "OpenAI商业化：当ChatGPT同时卖订阅、Agent与广告",
-    "href": "./reports/2026-07-27-openai-ads-agents.html",
-    "tags": ["OpenAI", "ChatGPT广告", "Agent商业化"]
-  },
-  {
-    "date": "2026-07-26",
-    "publishedAt": "2026-07-26T08:06:00+08:00",
-    "displayTime": "2026年7月26日 08:06",
-    "title": "Anthropic Claude企业业务：从模型调用走向工作流与Agent基础设施",
-    "href": "./reports/2026-07-26-anthropic-enterprise-ai.html",
-    "tags": ["Anthropic", "企业AI", "Claude Code"]
-  },
-  {
-    "date": "2026-07-25",
-    "publishedAt": "2026-07-25T08:01:00+08:00",
-    "displayTime": "2026年7月25日 08:01",
-    "title": "Microsoft Copilot：企业AI如何从席位订阅走向Agent消耗？",
-    "href": "./reports/2026-07-25-microsoft-copilot-agent.html",
-    "tags": ["Microsoft Copilot", "企业AI", "Agent商业化"]
-  },
-  {
-    "date": "2026-07-24",
-    "publishedAt": "2026-07-24T08:00:00+08:00",
-    "displayTime": "2026年7月24日 08:00",
-    "title": "NVIDIA AI生态：英伟达卖的究竟是GPU，还是AI时代的生产资料标准？",
-    "href": "./reports/2026-07-24-nvidia-ai-ecosystem.html",
-    "tags": ["NVIDIA", "AI基础设施", "Agent生态"]
-  },
-  {
-    "date": "2026-07-23",
-    "publishedAt": "2026-07-23T10:56:46+08:00",
-    "displayTime": "2026年7月23日 10:56",
-    "title": "阿里巴巴AI电商：Qwen如何把模型能力变成广告与交易利润？",
-    "href": "./reports/2026-07-23-alibaba-ai-commerce.html",
-    "tags": ["阿里巴巴", "AI电商", "广告商业化"]
-  },
-  {
-    "date": "2026-07-22",
-    "publishedAt": "2026-07-22T15:00:00+08:00",
-    "displayTime": "2026年7月22日 15:00",
-    "title": "美团闪购：补贴退潮后，30分钟零售如何重新长出利润？",
-    "href": "./reports/2026-07-22-meituan-instant-retail.html",
-    "tags": ["美团闪购", "即时零售", "本地商业"]
-  },
-  {
-    "date": "2026-07-21",
-    "publishedAt": "2026-07-21T07:59:34+08:00",
-    "displayTime": "2026年7月21日 07:59",
-    "title": "Google Ads：当搜索变成AI答案，广告利润池会更大还是被自己吞掉？",
-    "href": "./reports/2026-07-21-google-ads.html",
-    "tags": ["Google Ads", "AI搜索", "广告商业化"]
-  },
-  {
-    "date": "2026-07-20",
-    "publishedAt": "2026-07-20T07:59:00+08:00",
-    "displayTime": "2026年7月20日 07:59",
-    "title": "Meta Ads：AI如何把社交广告升级为增长操作系统？",
-    "href": "./reports/2026-07-20-meta-ads.html",
-    "tags": ["Meta Ads", "广告商业化", "AI增长"]
-  },
-  {
-    "date": "2026-07-19",
-    "publishedAt": "2026-07-19T15:30:00+08:00",
-    "displayTime": "2026年7月19日 15:30",
-    "title": "拼多多：低价心智如何转化为广告利润池？",
-    "href": "./2026-07-19.html",
-    "tags": ["拼多多", "广告商业化", "商家运营"]
-  },
-  {
-    "date": "2026-07-19",
-    "publishedAt": "2026-07-19T08:01:00+08:00",
-    "displayTime": "2026年7月19日 08:01",
-    "title": "Amazon Ads：从电商搜索广告到AI购物决策基础设施",
-    "href": "./2026-07-19-amazon-ads.html",
-    "tags": ["Amazon Ads", "零售媒体", "AI Agent"]
-  },
-  {
-    "date": "2026-07-18",
-    "publishedAt": "2026-07-18T16:30:00+08:00",
-    "displayTime": "2026年7月18日 16:30",
-    "title": "京东外卖：高频入口能否转化为广告利润池？",
-    "href": "./2026-07-18.html",
-    "tags": ["京东外卖", "即时零售", "广告商业化"]
-  },
-  {
-    "date": "2026-07-17",
-    "publishedAt": "2026-07-17T08:00:00+08:00",
-    "displayTime": "2026年7月17日 08:00",
-    "title": "腾讯广告：AI正在把微信流量变成交易闭环",
-    "href": "./2026-07-17.html",
-    "tags": ["腾讯广告", "微信生态", "AI商业化"]
-  }
+  {"date":"2026-08-07","publishedAt":"2026-08-07T08:10:20+08:00","displayTime":"2026年8月7日 08:10","title":"NVIDIA AI工厂：当推理Token成为工业品，英伟达卖的还是GPU吗？","href":"./reports/2026-08-07-nvidia-ai-factory.html","tags":["NVIDIA","AI工厂","推理经济"]},
+  {"date":"2026-08-06","publishedAt":"2026-08-06T08:00:48+08:00","displayTime":"2026年8月6日 08:00","title":"Google AI搜索广告：当答案替代链接，广告利润池会扩大还是被搜索自己吞掉？","href":"./reports/2026-08-06-google-ai-search-ads.html","tags":["Google Ads","AI搜索","增量利润"]},
+  {"date":"2026-08-05","publishedAt":"2026-08-05T08:03:49+08:00","displayTime":"2026年8月5日 08:03","title":"阿里巴巴AI商业闭环：云、广告与即时零售能否形成第二增长曲线？","href":"./reports/2026-08-05-alibaba-ai-commerce-loop.html","tags":["阿里巴巴","AI云","电商商业化"]},
+  {"date":"2026-08-04","publishedAt":"2026-08-04T08:01:45+08:00","displayTime":"2026年8月4日 08:01","title":"美团利润重建：补贴退潮后，即时零售如何重新赚到每一单的钱？","href":"./reports/2026-08-04-meituan-profit-rebuild.html","tags":["美团","即时零售","单位经济"]},
+  {"date":"2026-08-03","publishedAt":"2026-08-03T08:08:00+08:00","displayTime":"2026年8月3日 08:08","title":"拼多多供应链升级：低价心智如何变成可持续的商家利润？","href":"./reports/2026-08-03-pdd-supply-chain.html","tags":["拼多多","Temu","供应链升级"]},
+  {"date":"2026-08-02","publishedAt":"2026-08-02T08:03:53+08:00","displayTime":"2026年8月2日 08:03","title":"Meta广告与AI资本开支：收入高增为何换来利润与现金流下滑？","href":"./reports/2026-08-02-meta-ai-capex.html","tags":["Meta Ads","AI资本开支","增量归因"]},
+  {"date":"2026-08-01","publishedAt":"2026-08-01T08:03:00+08:00","displayTime":"2026年8月1日 08:03","title":"Amazon广告与AI购物：当搜索入口被Agent重写，零售媒体利润池会更深还是被稀释？","href":"./reports/2026-08-01-amazon-ai-retail-media.html","tags":["Amazon Ads","零售媒体","AI购物"]},
+  {"date":"2026-07-31","publishedAt":"2026-07-31T08:00:00+08:00","displayTime":"2026年7月31日 08:00","title":"微信闭环广告：腾讯如何把社交关系变成可验证的交易利润？","href":"./reports/2026-07-31-weixin-closed-loop-ads.html","tags":["腾讯广告","微信小店","闭环归因"]},
+  {"date":"2026-07-30","publishedAt":"2026-07-30T08:04:52+08:00","displayTime":"2026年7月30日 08:04","title":"京东零售与采销：当商品收入放缓，利润为何反而创高？","href":"./reports/2026-07-30-jd-retail-procurement.html","tags":["京东零售","采销","供应链利润"]},
+  {"date":"2026-07-29","publishedAt":"2026-07-29T08:18:00+08:00","displayTime":"2026年7月29日 08:18","title":"TikTok发现式电商：内容流量如何变成广告、佣金与复购利润？","href":"./reports/2026-07-29-tiktok-discovery-commerce.html","tags":["TikTok Shop","发现式电商","广告自动化"]},
+  {"date":"2026-07-28","publishedAt":"2026-07-28T08:01:00+08:00","displayTime":"2026年7月28日 08:01","title":"小红书商业化：当种草成为搜索入口，如何把信任转化为广告与交易利润？","href":"./reports/2026-07-28-xiaohongshu-commerce.html","tags":["小红书","种草搜索","电商商业化"]},
+  {"date":"2026-07-27","publishedAt":"2026-07-27T08:31:00+08:00","displayTime":"2026年7月27日 08:31","title":"OpenAI商业化：当ChatGPT同时卖订阅、Agent与广告","href":"./reports/2026-07-27-openai-ads-agents.html","tags":["OpenAI","ChatGPT广告","Agent商业化"]},
+  {"date":"2026-07-26","publishedAt":"2026-07-26T08:06:00+08:00","displayTime":"2026年7月26日 08:06","title":"Anthropic Claude企业业务：从模型调用走向工作流与Agent基础设施","href":"./reports/2026-07-26-anthropic-enterprise-ai.html","tags":["Anthropic","企业AI","Claude Code"]},
+  {"date":"2026-07-25","publishedAt":"2026-07-25T08:01:00+08:00","displayTime":"2026年7月25日 08:01","title":"Microsoft Copilot：企业AI如何从席位订阅走向Agent消耗？","href":"./reports/2026-07-25-microsoft-copilot-agent.html","tags":["Microsoft Copilot","企业AI","Agent商业化"]},
+  {"date":"2026-07-24","publishedAt":"2026-07-24T08:00:00+08:00","displayTime":"2026年7月24日 08:00","title":"NVIDIA AI生态：英伟达卖的究竟是GPU，还是AI时代的生产资料标准？","href":"./reports/2026-07-24-nvidia-ai-ecosystem.html","tags":["NVIDIA","AI基础设施","Agent生态"]},
+  {"date":"2026-07-23","publishedAt":"2026-07-23T10:56:46+08:00","displayTime":"2026年7月23日 10:56","title":"阿里巴巴AI电商：Qwen如何把模型能力变成广告与交易利润？","href":"./reports/2026-07-23-alibaba-ai-commerce.html","tags":["阿里巴巴","AI电商","广告商业化"]},
+  {"date":"2026-07-22","publishedAt":"2026-07-22T15:00:00+08:00","displayTime":"2026年7月22日 15:00","title":"美团闪购：补贴退潮后，30分钟零售如何重新长出利润？","href":"./reports/2026-07-22-meituan-instant-retail.html","tags":["美团闪购","即时零售","本地商业"]},
+  {"date":"2026-07-21","publishedAt":"2026-07-21T07:59:34+08:00","displayTime":"2026年7月21日 07:59","title":"Google Ads：当搜索变成AI答案，广告利润池会更大还是被自己吞掉？","href":"./reports/2026-07-21-google-ads.html","tags":["Google Ads","AI搜索","广告商业化"]},
+  {"date":"2026-07-20","publishedAt":"2026-07-20T07:59:00+08:00","displayTime":"2026年7月20日 07:59","title":"Meta Ads：AI如何把社交广告升级为增长操作系统？","href":"./reports/2026-07-20-meta-ads.html","tags":["Meta Ads","广告商业化","AI增长"]},
+  {"date":"2026-07-19","publishedAt":"2026-07-19T15:30:00+08:00","displayTime":"2026年7月19日 15:30","title":"拼多多：低价心智如何转化为广告利润池？","href":"./2026-07-19.html","tags":["拼多多","广告商业化","商家运营"]},
+  {"date":"2026-07-19","publishedAt":"2026-07-19T08:01:00+08:00","displayTime":"2026年7月19日 08:01","title":"Amazon Ads：从电商搜索广告到AI购物决策基础设施","href":"./2026-07-19-amazon-ads.html","tags":["Amazon Ads","零售媒体","AI Agent"]},
+  {"date":"2026-07-18","publishedAt":"2026-07-18T16:30:00+08:00","displayTime":"2026年7月18日 16:30","title":"京东外卖：高频入口能否转化为广告利润池？","href":"./2026-07-18.html","tags":["京东外卖","即时零售","广告商业化"]},
+  {"date":"2026-07-17","publishedAt":"2026-07-17T08:00:00+08:00","displayTime":"2026年7月17日 08:00","title":"腾讯广告：AI正在把微信流量变成交易闭环","href":"./2026-07-17.html","tags":["腾讯广告","微信生态","AI商业化"]}
 ]
