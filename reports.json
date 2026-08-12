@@ -1,4 +1,5 @@
 [
+  {"date":"2026-08-12","publishedAt":"2026-08-12T08:01:22+08:00","displayTime":"2026年8月12日 08:01","title":"Anthropic计算经济：当Claude需求爆发，真正的瓶颈从模型能力转向电力、推理成本与企业交付","href":"./reports/2026-08-12-anthropic-compute-economics.html","tags":["Anthropic","企业AI","计算经济"]},
   {"date":"2026-08-11","publishedAt":"2026-08-11T07:58:31+08:00","displayTime":"2026年8月11日 07:58","title":"腾讯财报前夜：AI广告从eCPM提价走向闭环交易，明天Q2最该验证什么？","href":"./reports/2026-08-11-tencent-q2-ad-checklist.html","tags":["腾讯广告","Q2验证","闭环交易"]},
   {"date":"2026-08-10","publishedAt":"2026-08-10T08:00:00+08:00","displayTime":"2026年8月10日 08:00","title":"小红书搜索商业化：当种草变成主动搜索，广告利润池如何真正做大？","href":"./reports/2026-08-10-xiaohongshu-search-profit.html","tags":["小红书","搜索商业化","增量利润"]},
   {"date":"2026-08-09","publishedAt":"2026-08-09T08:09:00+08:00","displayTime":"2026年8月9日 08:09","title":"抖音电商利润型投放：从支付ROI到净成交ROI，AI如何把内容流量变成真实利润？","href":"./reports/2026-08-09-douyin-profit-ads.html","tags":["抖音电商","巨量千川","净成交ROI"]},
